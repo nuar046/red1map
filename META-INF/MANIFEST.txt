@@ -1,0 +1,1 @@
+Service-Component: OSGI-INF/RD_HandlerDocEvent.xml,OSGI-INF/RD_HandlerModelFactory.xml

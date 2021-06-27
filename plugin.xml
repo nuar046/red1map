@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension id="org.map.process.CreateModelTranslation"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.map.process.CreateModelTranslation">
+	</process>
+</extension>
+<extension id="org.map.process.MigrateDataFrom"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.map.process.MigrateDataFrom">
+	</process>
+</extension>
+<extension id="org.map.process.MigrateDataTo"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.map.process.MigrateDataTo">
+	</process>
+</extension>
+<extension id="org.map.process.SynchMaster"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.map.process.SynchMaster">
+	</process>
+</extension>
+<extension id="org.map.process.TransposeField"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.map.process.TransposeField">
+	</process>
+</extension>
+<extension id="org.map.process.MakeMigrateSheet"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.map.process.MakeMigrateSheet">
+	</process>
+</extension>
+<extension id="org.my.process.ExcelSalesOrder"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.map.process.ExcelSalesOrder">
+	</process>
+</extension>
+<extension id="org.my.process.ImportFromExcel"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.map.process.ImportFromExcel">
+	</process>
+</extension>	
+</plugin>
